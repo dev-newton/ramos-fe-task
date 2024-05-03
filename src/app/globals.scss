@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #fe4a23;
+  // --primary: #eb5735;
+  --secondary: #ffd027;
+  --light-gray: #f9f9f9;
+  --dark-gray: #0d0d0d;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%
+}
+
+body {
+  height: 100%
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 124px;
+}
+
+progress {
+  border: none;
+  background: #e4e4e4;
+}
+
+.progress::-webkit-progress-bar {
+  background: #e4e4e4;
+  border-radius: 16px;
+}
+
+progress::-webkit-progress-bar {
+  background: #e4e4e4;
+  border-radius: 16px;
+ }
+
+.progress::-webkit-progress-value {
+  background: #37C379;
+  border-radius: 16px;
+}
