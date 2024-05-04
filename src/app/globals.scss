@@ -4,7 +4,6 @@
 
 :root {
   --primary: #fe4a23;
-  // --primary: #eb5735;
   --secondary: #ffd027;
   --light-gray: #f9f9f9;
   --dark-gray: #0d0d0d;
@@ -16,7 +15,8 @@ html {
 }
 
 body {
-  height: 100%
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -43,3 +43,21 @@ progress::-webkit-progress-bar {
   background: #37C379;
   border-radius: 16px;
 }
+
+.progress-custom {
+  height:5px;
+  border-radius: 8px;
+  background: linear-gradient(to right, 
+  #42C680 0%, 
+  #42C680 calc(33.33% - 2px), 
+  white calc(33.33% - 2px), 
+  white calc(33.33% + 2px), 
+  #ffd027 calc(33.33% + 2px), 
+  #ffd027 calc(66.66% - 2px), 
+  white calc(66.66% - 2px), 
+  white calc(66.66% + 2px), 
+  #c585d7 calc(66.66% + 2px), 
+  #c585d7 100%
+);
+
+ }
